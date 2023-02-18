@@ -18,8 +18,9 @@ class DetailsScreen : AppCompatActivity() {
         val linkView = findViewById<TextView>(R.id.serviceLinkView)
         val iconView = findViewById<ImageView>(R.id.serviceIconView)
         /** setting up action bar */
-        actionBar?.setDisplayHomeAsUpEnabled(true) //back button
-        actionBar?.title = bundle?.getString("name") //title
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true) //back button
+        supportActionBar?.title = bundle?.getString("name") //title
         nameView.text = bundle?.getString("name") //set service name
         descriptionView.text = bundle?.getString("description") // set service description
         linkView.text = bundle?.getString("service_url") // set service url
