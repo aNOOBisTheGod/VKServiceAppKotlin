@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">VKServiceApp</string>
     <string name="service_icon">Service Icon</string>
-    <string name="retry">Retry</string>
+    <string name="retry">Перезагрузить</string>
 </resources>
